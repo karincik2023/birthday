@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="header__container">
+    <h1 class="header__title">Дни до дня рождения</h1>
+    <div class="input__container">
+    <label for="data"></label>
+    <input type="date" 
+     class="input__content"
+     name="date" 
+     id="date"
+     required>
+    <button type="submit"
+     class="btn"
+     id="result"
+     >Посчитать</button>
+     <div id="errorMessageContainer">
+     <p id="errorMessage" class="hidden">пожалуйста введите свою дату рождение</p>
+    </div>
+     <p id="resultMessage" class="input__result">До дня рождение осталось <span id="daysCount" class="hidden"></span></p>
+    </div>
+</div>
+     <script src="assets/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, rgba(52,32,45,0.5),rgba(34,55,67,0.8));
+}
+/* сам котейнер */
+ .header__container { 
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 100%;
+ }
+ .input__container{
+    display: flex;
+ }
+/* заголовок */
+.header__title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.input__content { 
+border-radius: 5rem;
+padding: 7px 7px;
+border: none;
+margin-top: 2.5rem;
+margin-right: 0.5rem; 
+} 
+
+/* кнопка */
+.btn {
+    margin-top: 2.5rem;
+    border-radius: 5rem;
+    padding: 7px 7px;
+    cursor: pointer;
+    background-color: red;
+    color: #FFF;
+    border: none;
+    outline: none;
+} 
+#errormessage{
+    color: red;
+    display: block;
+}
+#resultMessage{
+    display: none;
+    color: black;
+}
+.hidden{
+    display: none;
+}
